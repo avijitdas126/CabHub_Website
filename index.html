@@ -14,8 +14,14 @@
 
     <title>CabHUB</title>
     <style>
-      .bg-\[url\(\'\/img\/Layers\.png\'\)\]{
+      .bgimg{
         background: url('./img/background.png');
+      }
+      .bglayers{
+        background: url('./img/Layers.png');
+      }
+      .bglayer{
+        background: url('./img/Layer.png');
       }
     </style>
   </head>
@@ -26,7 +32,7 @@
     </div>
     <!-- header -->
     <header
-      class="bg-image bg-[url('/img/background.png')] bg-no-repeat bg-fixed bg-cover w-full h-[28rem] sm:h-[30rem] lg:h-[35rem] relative"
+      class="bg-image bgimg bg-no-repeat bg-fixed bg-cover w-full h-[28rem] sm:h-[30rem] lg:h-[35rem] relative"
     >
       <!-- navbar -->
       <section class="fixed z-50 w-full top-0 bg-trans">
@@ -247,7 +253,7 @@
     <!-- feature-2 -->
     <section id="feature">
       <div
-        class="relative bg-no-repeat bg-fixed bg-cover bg-[url('/img/Layers.png')] text-white pt-10 pb-10"
+        class="relative bg-no-repeat bg-fixed bg-cover bglayers text-white pt-10 pb-10"
       >
         <!-- Gray Overlay -->
         <div
@@ -347,7 +353,7 @@
 
     <!-- review section -->
     <section id="review">
-      <div class="bg-[url('/img/Layer.png')] bg-no-repeat bg-fixed bg-cover">
+      <div class="bglayer bg-no-repeat bg-fixed bg-cover">
         <div class="bg-[#423d3d7a]">
           <h1 class="text-primary font-bold text-3xl text-center pt-5">Happy Client's</h1>
       <h1 class=" font-bold text-3xl text-center">Testimonials</h1>
